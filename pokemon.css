@@ -1,0 +1,87 @@
+/* Style the search input */
+#searchInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+}
+
+/* Style the search button */
+#searchButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hover effect for the search button */
+#searchButton:hover {
+    background-color: #45a049;
+}
+
+/* Style the Pokémon information container */
+#cardInfo {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the Pokémon information heading */
+#cardInfo h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style the Pokémon entry container */
+#dex {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Style the Pokémon entry text */
+#dex p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Style the Pokémon card list container */
+#cardList {
+    margin-top: 20px;
+}
+
+/* Style individual Pokémon card item */
+#cardList ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cardList li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#cardList li img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#cardList li span {
+    font-size: 18px;
+    color: #333;
+}
